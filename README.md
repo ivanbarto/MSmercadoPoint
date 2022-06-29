@@ -13,4 +13,5 @@ This microservice acts as the Integrator Server entity.
 As a PDV, you must:
 
 1- Create a Payment Intention. To do this, the PDV calls this microservice with the required parameters.
+
 2- Wait for a payment confirmation from this microservice. The PDV has to show a propper UI, giving instructions to procede with the payment and a  indeterminate progress.
