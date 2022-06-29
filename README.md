@@ -18,7 +18,7 @@ As a PDV, you must:
 
 There are 3 possible states on the response:
 
-1- SUCCESS: the payment was a success
+1- APPROVED: the payment was a success
 ```
 {
  "amount": 100,
@@ -39,7 +39,7 @@ There are 3 possible states on the response:
 }
 ```
 
-2- CANCELLED: the user has cancelled the paymnet process for a particular reason
+2- CANCELED: the user has cancelled the paymnet process for a particular reason
 ```
 {
  "amount": 100,
