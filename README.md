@@ -19,7 +19,7 @@ As a PDV, you must:
 There are 3 possible states on the response:
 
 1- SUCCESS: the payment was a success
-´´´
+```
 {
  "amount": 100,
  "caller_id": 09876543,
@@ -37,10 +37,10 @@ There are 3 possible states on the response:
    "ticket_number": "39SHDKKDJ"
  }
 }
-´´´
+```
 
 2- CANCELLED: the user has cancelled the paymnet process for a particular reason
-´´´
+```
 {
  "amount": 100,
  "caller_id": 09876543,
@@ -53,10 +53,10 @@ There are 3 possible states on the response:
    "ticket_number": "39SHDKKDJ"
  }
 }
-´´´
+```
 
 3- ERROR: an error has occured while the user was paying
-´´´
+```
 {
  "amount": 100,
  "caller_id": 09876543,
@@ -69,4 +69,4 @@ There are 3 possible states on the response:
    "ticket_number": "39SHDKKDJ"
  }
 }
-´´´
+```
