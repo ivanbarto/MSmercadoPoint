@@ -3,7 +3,7 @@ Microservice created in order to link payments with MercadoPoint
 
 Mercadopago reference: https://www.mercadopago.com.ar/developers/es/docs/mp-point/integration-api/introduction
 
-The main idea that this microservice has is to give an endpoint where link a PDV (punto de venta) with a Point Plus Device (POS), in order to allow the user to manage sales payments with that device and decouple PDV from payments.
+The main idea is to give an endpoint where link a PDV (punto de venta) with a Point Plus Device (POS), in order to allow the user to manage sales payments with that device and decouple PDV from payments.
 
 This is the Use Case sequence diagram:
 ![image](https://user-images.githubusercontent.com/66323499/176477365-ebe93b07-1e8b-4b3e-a39e-dea9792f9f39.png)
